@@ -1,0 +1,133 @@
+.navbar ul li a {
+    text-decoration: none;
+    margin: 10px;
+}
+.navbar{
+    position: relative;
+    
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index:9999999;
+    color: aliceblue;
+}
+.collapse{
+    position: absolute;
+    left: 35%;
+
+}
+.pcarousel{
+    position: relative;
+}
+.dcarousel{
+    position: absolute;
+    bottom: 45%;
+    font-size: 60px;
+}
+
+.Settings {
+    color: aliceblue;
+    width: 40px;
+    height: 30px;
+    position: fixed;
+    top: 40%;
+    z-index: 999999;
+}
+.dd{
+    position: relative;
+    width: 50px;
+height: 1px;
+left:48%;
+}
+.line::after{
+    position: relative;
+    left:48%;
+    background-color:black;
+content: "";
+width: 50px;
+height: 1px;
+}
+/*.Sentence{
+    position: relative;
+}
+.h2::after{
+    content: "A";
+    position: relative;
+    bottom: 30;
+    left: 47%;
+    color:rgba(173, 172, 172, 0.5);width: 50px;
+width: 50px;
+height: 10px;
+   
+}
+
+
+
+.line1::after{
+    position: absolute;
+    bottom: 75;
+    right: 600;
+    background-color: #20C997;
+content: "";
+width: 70px;
+height: 3px;
+top: 10%;
+}*/
+.shadow h2{background-color:rgba(85, 85, 85 ,0.0);
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    top: 40%;
+    bottom: 10%;
+    font-size: 20px;
+    font-size: 90%;
+}
+.know h3{
+   color: rgba(85, 85, 85 ,0.1);
+   font-size:100px ;
+   
+}
+.contanertwo{
+    height: 40%;
+    /*background-color: #d674be;*/
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+.helloimge1{
+    position: relative;
+}
+.icon1{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 47px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.0);
+    z-index: 1;
+}
+.icon1:hover .icon2 {
+    background-color: rgba(165, 42, 42, 0.0);
+    color: black;
+}
+.icon1:hover.icon1 {
+    background-color: rgba(165, 42, 42, 0.8);
+}
+.icon2{
+    position: relative;
+    top: 50%;
+    color:  rgba(248, 248, 248, 0);
+}
+.cardimg{
+    width: 50%;
+    border-radius: 50%;
+}
+
+
+
